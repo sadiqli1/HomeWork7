@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(81, 81, 239);
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .phone-email ul{
+    margin-left: 50px;
+    display: flex;
+    padding: 10px;
+}
+
+.contact .phone-email ul li{
+    margin-left: 20px;
+    list-style: none;
+    color: white;
+}
+
+.contact .socialmedia ul{
+    display: flex;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.contact .socialmedia ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.contact .socialmedia ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo h1{
+    padding-top: 15px;
+}
+
+nav .logo h1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+}
+
+nav .navication ul{
+    display: flex;
+    position: relative;
+    left: 190px;
+}
+
+nav .navication ul li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+nav .navication ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .search-language ul{
+    display: flex;
+    padding: 15px;
+}
+
+nav .search-language ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav .search-language ul li a{
+    text-decoration: none;
+    color: white;
+}
